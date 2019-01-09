@@ -1,0 +1,24 @@
+section {
+    padding: 75px 0;
+}
+
+.card-header-work {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.spacer {
+    margin-top: 20px;
+}
+
+.display-4-purple {
+    font-size:9vw !important;
+    font-weight: 900 !important;
+    line-height: .9 !important;
+}
+
+.text-purple {
+    color: rgb(71, 5, 71) !important;
+}

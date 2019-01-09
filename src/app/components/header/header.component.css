@@ -1,0 +1,14 @@
+header.bg-fwfmedia {
+	padding-top: calc(2rem + 50px);
+  	padding-bottom: 6rem;
+	background-repeat: no-repeat;
+    background-size:cover;
+	background-position: center top;
+	height: 400px;
+}
+
+@media (min-width: 992px) {
+    header {
+      padding: 156px 0 100px;
+    }
+  }

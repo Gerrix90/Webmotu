@@ -1,0 +1,48 @@
+section {
+    padding: 75px 0;
+}
+
+.contact {
+	color: #696969;
+}
+
+.form-control {
+    margin-top: 20px;
+}
+
+.side-icon-box {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 80px;
+}
+
+.side-icon-box a {
+    color: #000;
+}
+
+.side-icon-box .side-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+}
+
+.side-icon-box strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+    
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

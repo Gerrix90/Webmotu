@@ -1,0 +1,44 @@
+section {
+    padding: 100px 0;
+}
+
+.card-project {
+    margin-top:20px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0;
+    border: 1px solid rgba(31,181,172,.9);
+}
+
+  
+  .card-text {
+    color: rgb(71, 5, 71) !important;
+  }
+
+  .folded-corner{
+    padding: 25px 25px;
+    position: relative;
+    font-size: 80%;
+    text-decoration: none;
+    color: #000; 
+    background: transparent;
+    transition: all ease .5s;
+    border: 1px solid rgba(31,181,172,.9);
+  }
+  .folded-corner:hover{
+    background-color: rgba(214, 236, 234, 0.9) !important;
+  }
+  
+  /*
+    paper fold corner
+  */
+  
+  .folded-corner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 0px 0px 0;
+    border-color: #ddd #000;
+    transition: all ease .3s;
+  }
